@@ -1,9 +1,21 @@
+/* reset */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
 /* globais */
 body
 {
     background-color: #000000;
     color: #F6F6F6;
     font-family: "Montserrat", serif;
+}
+
+strong
+{
+    color: #22D4FD;
 }
 
 /* títulos */
