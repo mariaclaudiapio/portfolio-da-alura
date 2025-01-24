@@ -8,6 +8,8 @@
 /* globais */
 body
 {
+    height: 100vh;
+    box-sizing: border-box; /* impede o "vazamento" dos elementos filhos */
     background-color: #000000;
     color: #F6F6F6;
     font-family: "Montserrat", serif;
@@ -22,4 +24,10 @@ strong
 h2
 {
     font-family: "Krona One", serif;
+}
+
+.container
+{
+    display: flex;
+    align-items: center;
 }
