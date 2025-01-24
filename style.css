@@ -20,14 +20,16 @@ strong
     color: #22D4FD;
 }
 
+/* conteúdo principal */
+.apresentacao
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 /* títulos */
 h2
 {
     font-family: "Krona One", serif;
-}
-
-.container
-{
-    display: flex;
-    align-items: center;
 }
