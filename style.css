@@ -32,6 +32,9 @@ strong
 .apresentacao__texto
 {
     width: 593px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 /* títulos */
