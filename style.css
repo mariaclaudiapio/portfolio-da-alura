@@ -12,7 +12,7 @@ body
     box-sizing: border-box; /* impede o "vazamento" dos elementos filhos */
     background-color: #000000;
     color: #F6F6F6;
-    font-family: "Montserrat", serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 strong
@@ -23,13 +23,47 @@ strong
 /* conteúdo principal */
 .apresentacao
 {
+    margin: 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-/* títulos */
-h2
+.apresentacao__texto
 {
-    font-family: "Krona One", serif;
+    width: 593px;
+}
+
+/* títulos */
+.apresentacao__texto_titulo
+{
+    font-family: "Krona One", sans-serif;
+    font-size: 36px;
+}
+
+/* textos */
+.apresentacao__texto_texto
+{
+    font-size: 24px;
+}
+
+/* links (botões) */
+.apresentacao__links
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links_link
+{
+    background-color: #22D4FD;
+    padding: 21.5px 0;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 14px;
+    text-decoration: none;
+    color:#000000;
+    font-size: 24px;
+    font-weight: 600;
 }
