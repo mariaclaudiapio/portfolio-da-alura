@@ -8,7 +8,6 @@
 /* globais */
 body
 {
-    height: 100vh;
     box-sizing: border-box; /* impede o "vazamento" dos elementos filhos */
     background-color: #000000;
     color: #F6F6F6;
@@ -23,7 +22,7 @@ strong
 /* conteúdo principal */
 .apresentacao
 {
-    margin: 10%;
+    margin: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -81,4 +80,19 @@ strong
     font-size: 24px;
     font-weight: 600;
     border: 2px solid #22D4FD;
+}
+
+.apresentacao__links_link:hover
+{
+   background-color: #272727; 
+}
+
+.rodape
+{
+    padding: 24px;
+    color: #000000;
+    background-color: #22D4FD;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
 }
