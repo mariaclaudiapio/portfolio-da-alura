@@ -3,6 +3,7 @@
 {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 /* globais */
@@ -19,10 +20,29 @@ strong
     color: #22D4FD;
 }
 
+/* cabecalho */
+.cabecalho
+{
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu
+{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu_item
+{
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;   
+}
+
 /* conteúdo principal */
 .apresentacao
 {
-    margin: 8% 15%;
+    margin: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -87,6 +107,7 @@ strong
    background-color: #272727; 
 }
 
+/* rodapé */
 .rodape
 {
     padding: 24px;
