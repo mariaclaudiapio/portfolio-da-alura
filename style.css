@@ -133,11 +133,42 @@ strong
     font-weight: 400;
 }
 
-/* layout para mobile */
+/* layout para versão mobile */
 @media (max-width: 1200px)
 {
+    .cabecalho
+    {
+        padding: 10%;
+    }
+
+    .cabecalho__menu
+    {
+        justify-content: center; 
+    }
+
     .apresentacao
     {
         flex-direction: column-reverse;
+        padding: 5%;
     }
+
+    .apresentacao__imagem
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .apresentacao__texto      
+    {
+        width: auto;
+    }
+
+    .apresentacao__links_link  
+    {
+        width: 80%;
+    }
+
+
+
+
 }
